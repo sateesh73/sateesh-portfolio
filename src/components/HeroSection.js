@@ -105,17 +105,19 @@ const HeroStyles = styled.div`
     }
     .hero__heading {
       font-size: 1.4rem;
-      margin-bottom: -5rem;
+      margin-bottom: -3rem;
       .hero__name {
-        font-size: 4.5rem;
+        font-size: 3rem;
+        margin-bottom:-2rem;
       }
     }
     .hero__img {
       height: 300px;
     }
     .hero__info {
+      width:100%;
       margin-top: 3rem;
-      margin-right: -18rem;
+      margin-left: 0.7rem;
     }
     .hero__social {
       left: 0px;
